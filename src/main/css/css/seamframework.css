@@ -83,19 +83,19 @@ h1 {
 
 .docnav li.home a strong {
 	background: none;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	height: auto;
-	padding-left: 30px;
+	padding-left: 00px;
 	font-size: 1em;
 }
 
 .docnav li.up a strong {
 	background: none;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	height: auto;
-	padding-left: 30px;
+	padding-left: 00px;
 	font-size: 1em;
 }
 
