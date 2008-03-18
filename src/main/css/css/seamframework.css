@@ -1,0 +1,160 @@
+@import url(jbossorg.css);
+
+pre {
+	font-family: monospace;
+}
+
+body {
+	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #e9e8e7;
+	max-width: 960px;
+	background-image: none;
+}
+
+#title a.seamFrameworkOrg_href {
+	display: block;
+	height: 98px;
+	width: 960px;
+	background: url(../images/hrd_bkgimage_fade.gif) top left no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+.title {
+	color: #576c74;
+	background-image: none;
+}
+
+.book {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+.preface {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+.chapter {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+.docnav {
+	margin-bottom: 0px;
+	border-top: none;
+}
+
+.docnav li.next a strong {
+	background: url(../images/page.next.gif) top right no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 11px;
+	height: 11px;
+	padding-right: 30px;
+	font-size: 1em;
+}
+
+.docnav li.previous a strong {
+	background: url(../images/page.previous.gif) top left no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 11px;
+	height: 11px;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+.docnav li.home a strong {
+	background: none;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	height: auto;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+.docnav li.up a strong {
+	background: none;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	height: auto;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+.navheader td.next a {
+	background: url(../images/page.next.png) top right no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 11px;
+	height: 11px;
+	padding-right: 30px;
+	font-size: 0.9em;
+	font-size: 0.9em;
+}
+
+.navheader td.previous a {
+	background: url(../images/page.previous.png) top left no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 11;
+}
+
+.navfooter li.next a strong {
+	background: url(../images/page.next.gif) top right no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 11px;
+	padding-right: 30px;
+	font-size: 1em;
+}
+
+.navfooter li.previous a strong {
+	background: url(../images/page.previous.gif) top left no-repeat;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 11px;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+.navfooter li.home a strong {
+	background: none;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	height: auto;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+.navfooter li.up a strong {
+	background: none;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	height: auto;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+.example {
+	background: url(../images/leftside_bkgimage.gif) top left repeat;
+	padding: 5px;
+	margin-bottom: 10px;
+}
