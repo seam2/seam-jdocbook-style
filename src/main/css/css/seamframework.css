@@ -158,3 +158,20 @@ h1 {
 	padding: 5px;
 	margin-bottom: 10px;
 }
+
+.author {
+	margin-top: 10px;
+}
+
+.affiliation {
+	display: inline;
+}
+
+.author h3 {
+	margin: 0px;
+}
+
+.releaseinfo {
+	color: #576c74;
+	font-size: 150%;
+}
