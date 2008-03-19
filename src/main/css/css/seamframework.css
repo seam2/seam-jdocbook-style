@@ -20,15 +20,19 @@ body {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 h1 {
 	font-size: 150%;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	color: #576C74;
+}
+
 .title {
-	color: #4A5D75;
+	color: #576C74;
 	background-image: none;
 	font-size: 175%
 }
@@ -169,10 +173,10 @@ h1 {
 }
 
 .author h3 {
-	margin: 0px;	
+	margin: 0px;
 }
 
 .releaseinfo {
-	color: #4A5D75;
+	color: #576C74;
 	font-size: 150%;
 }
