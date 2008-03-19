@@ -28,8 +28,9 @@ h1 {
 }
 
 .title {
-	color: #576c74;
+	color: #4A5D75;
 	background-image: none;
+	font-size: 175%
 }
 
 .book {
@@ -160,7 +161,7 @@ h1 {
 }
 
 .author {
-	margin-top: 10px;
+	margin-top: 2px;
 }
 
 .affiliation {
@@ -168,10 +169,10 @@ h1 {
 }
 
 .author h3 {
-	margin: 0px;
+	margin: 0px;	
 }
 
 .releaseinfo {
-	color: #576c74;
+	color: #4A5D75;
 	font-size: 150%;
 }
