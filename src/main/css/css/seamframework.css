@@ -1,9 +1,15 @@
 @import url(jbossorg.css);
 
+/*
+Switch to monospace font for programlisting, needed for crappy callouts
+*/
 pre {
 	font-family: monospace;
 }
 
+/*
+	Switch to sfwk fonts, set a page width, set the grey background
+	*/
 body {
 	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
 	font-size: 12px;
@@ -12,6 +18,9 @@ body {
 	background-image: none;
 }
 
+/*
+	Replace the banner 
+	*/
 #title a.seamFrameworkOrg_href {
 	display: block;
 	height: 98px;
@@ -19,6 +28,8 @@ body {
 	background: url(../images/hrd_bkgimage_fade.gif) top left no-repeat;
 }
 
+/* 
+	More sfwk styling */
 a {
 	text-decoration: none;
 }
@@ -27,16 +38,25 @@ h1 {
 	font-size: 150%;
 }
 
+/*
+	Use sfwk colour for title
+*/
 h1,h2,h3,h4,h5,h6 {
 	color: #576C74;
 }
 
+/*
+	The book title, remove the background image
+*/
 .title {
 	color: #576C74;
 	background-image: none;
 	font-size: 175%
 }
 
+/*
+	White page
+	*/
 .book {
 	background-color: white;
 	padding-top: 10px;
@@ -45,6 +65,9 @@ h1,h2,h3,h4,h5,h6 {
 	padding-right: 25px;
 }
 
+/*
+	White page
+	*/
 .preface {
 	background-color: white;
 	padding-top: 10px;
@@ -53,6 +76,9 @@ h1,h2,h3,h4,h5,h6 {
 	padding-right: 25px;
 }
 
+/*
+	White page
+	*/
 .chapter {
 	background-color: white;
 	padding-top: 10px;
@@ -61,6 +87,9 @@ h1,h2,h3,h4,h5,h6 {
 	padding-right: 25px;
 }
 
+/*
+	Change to sfwk navigation icons
+	*/
 .docnav {
 	margin-bottom: 0px;
 	border-top: none;
@@ -158,12 +187,18 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 1em;
 }
 
+/*
+	Use sfwk colour as background for examples
+	*/
 .example {
 	background: url(../images/leftside_bkgimage.gif) top left repeat;
 	padding: 5px;
 	margin-bottom: 10px;
 }
 
+/*
+	Simpler author style on contents page
+	*/
 .author {
 	margin-top: 2px;
 }
@@ -176,10 +211,17 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
+/*
+	Make the seam version info into a title
+	*/
 .releaseinfo {
 	color: #576C74;
 	font-size: 150%;
 }
+
+/*
+	For highlighting, looks very odd or broken at the 0px jboss.org stylesheets use
+	*/
 
 PRE.JSP {
 	LINE-HEIGHT: 8px
@@ -189,6 +231,9 @@ PRE.XHTML {
 	LINE-HEIGHT: 8px
 }
 
+/*
+	use sfwk.org tables
+	*/
 .table-contents th {
 	background:#EDE8DB url(../images/th.bg.gif) repeat-x scroll 0pt;
 	color: black;
