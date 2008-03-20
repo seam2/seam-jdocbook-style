@@ -184,6 +184,19 @@ h1,h2,h3,h4,h5,h6 {
 PRE.JSP {
 	LINE-HEIGHT: 8px
 }
+
 PRE.XHTML {
 	LINE-HEIGHT: 8px
+}
+
+.table-contents th {
+	background:#EDE8DB url(../images/th.bg.gif) repeat-x scroll 0pt;
+	color: black;
+	font-weight:bold;
+	padding:2px 5px;
+	white-space:nowrap;
+}
+
+.table-contents th td {
+	border-right:1px solid #D3D2D1;
 }
