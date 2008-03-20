@@ -180,3 +180,10 @@ h1,h2,h3,h4,h5,h6 {
 	color: #576C74;
 	font-size: 150%;
 }
+
+PRE.JSP {
+	LINE-HEIGHT: 8px
+}
+PRE.XHTML {
+	LINE-HEIGHT: 8px
+}
