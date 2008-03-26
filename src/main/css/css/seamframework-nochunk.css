@@ -1,7 +1,5 @@
 @IMPORT url("seamframework.css");
 
-#title {
-	margin-top: -15px;
-	margin-left: -15px;
-	magin-bottom: 30px;
+.title {
+	margin-top: 30px;
 }

@@ -7,25 +7,8 @@ pre {
 	font-family: monospace;
 }
 
-/*
-	Switch to sfwk fonts, set a page width, set the grey background
-	*/
 body {
 	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
-	font-size: 12px;
-	background-color: #e9e8e7;
-	max-width: 960px;
-	background-image: none;
-}
-
-/*
-	Replace the banner 
-	*/
-#title a.seamFrameworkOrg_href {
-	display: block;
-	height: 98px;
-	width: 960px;
-	background: url(../images/hrd_bkgimage_fade.gif) top left no-repeat;
 }
 
 /* 
@@ -35,156 +18,50 @@ a {
 }
 
 h1 {
-	font-size: 150%;
+	color: #885324;
+}
+
+h2 {
+	color: #BA5624;
 }
 
 /*
 	Use sfwk colour for title
 */
-h1,h2,h3,h4,h5,h6 {
+h3,h4,h5,h6 {
 	color: #576C74;
 }
 
-/*
-	The book title, remove the background image
-*/
-.title {
-	color: #576C74;
-	background-image: none;
-	font-size: 175%
+div.note {
+	background: #849092;
+	color: white;
 }
 
-/*
-	White page
-	*/
-.book {
-	background-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 25px;
+div.note h2 {
+	color: white;
 }
 
-/*
-	White page
-	*/
-.preface {
-	background-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 25px;
+div.note a:visited   , div.tip a:visited   , div.important a:visited   ,
+	div.caution a:visited 
+	  , div.warning a:visited   , div.note a:link   , div.tip a:link   ,
+	div.important a:link 
+	  , div.caution a:link   , div.warning a:link {
+	color: #f7f2d0;
 }
 
-/*
-	White page
-	*/
-.chapter {
-	background-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 25px;
+#title a.jbossOrg_href {
+	display: block;
+	height: 100px;
+	width: 362px;
+	float: left;
+	background: url(../images/seamlogo.png) top left no-repeat;
 }
 
-/*
-	Change to sfwk navigation icons
-	*/
-.docnav {
-	margin-bottom: 0px;
-	border-top: none;
-}
-
-.docnav li.next a strong {
-	background: url(../images/page.next.gif) top right no-repeat;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: 11px;
-	height: 11px;
-	padding-right: 30px;
-	font-size: 1em;
-}
-
-.docnav li.previous a strong {
-	background: url(../images/page.previous.gif) top left no-repeat;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: 11px;
-	height: 11px;
-	padding-left: 30px;
-	font-size: 1em;
-}
-
-.docnav li.home a strong {
-	background: none;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: auto;
-	padding-left: 00px;
-	font-size: 1em;
-}
-
-.docnav li.up a strong {
-	background: none;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: auto;
-	padding-left: 00px;
-	font-size: 1em;
-}
-
-.navheader td.next a {
-	background: url(../images/page.next.png) top right no-repeat;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: 11px;
-	height: 11px;
-	padding-right: 30px;
-	font-size: 0.9em;
-	font-size: 0.9em;
-}
-
-.navheader td.previous a {
-	background: url(../images/page.previous.png) top left no-repeat;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: 11;
-}
-
-.navfooter li.next a strong {
-	background: url(../images/page.next.gif) top right no-repeat;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: 11px;
-	padding-right: 30px;
-	font-size: 1em;
-}
-
-.navfooter li.previous a strong {
-	background: url(../images/page.previous.gif) top left no-repeat;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	height: 11px;
-	padding-left: 30px;
-	font-size: 1em;
-}
-
-.navfooter li.home a strong {
-	background: none;
-	padding-top: 10px;
-	padding-bottom: 0px;
-	height: auto;
-	padding-left: 30px;
-	font-size: 1em;
-}
-
-.navfooter li.up a strong {
-	background: none;
-	padding-top: 10px;
-	padding-bottom: 0px;
-	height: auto;
-	padding-left: 30px;
-	font-size: 1em;
+#title a.commDoc_href {
+	display: block;
+	height: 100px;
+	background: transparent url(../images/support_doc.png) top right
+		no-repeat;
 }
 
 /*
@@ -215,7 +92,7 @@ h1,h2,h3,h4,h5,h6 {
 	Make the seam version info into a title
 	*/
 .releaseinfo {
-	color: #576C74;
+	color: #BA5624;
 	font-size: 150%;
 }
 
@@ -235,13 +112,13 @@ PRE.XHTML {
 	use sfwk.org tables
 	*/
 .table-contents th {
-	background:#EDE8DB url(../images/th.bg.gif) repeat-x scroll 0pt;
+	background: #EDE8DB url(../images/th.bg.gif) repeat-x scroll 0pt;
 	color: black;
-	font-weight:bold;
-	padding:2px 5px;
-	white-space:nowrap;
+	font-weight: bold;
+	padding: 2px 5px;
+	white-space: nowrap;
 }
 
 .table-contents th td {
-	border-right:1px solid #D3D2D1;
+	border-right: 1px solid #D3D2D1;
 }
