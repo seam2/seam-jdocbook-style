@@ -1,13 +1,7 @@
 @import url(jbossorg.css);
 
-/*
-Switch to monospace font for programlisting, needed for crappy callouts
-*/
-pre {
-	font-family: monospace;
-}
-
 body {
+	background-image:url(../images/bkg_gradient.png);
 	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
 }
 
