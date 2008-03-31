@@ -231,3 +231,7 @@ PRE.XHTML {
 .navfooter td.up a {
 	background-image: url(../images/seamframework/stock-go-up.png);
 }
+
+.programlistingco pre {
+	font-family: Courier, 'Courier New', 'Lucida Console', Monaco, monospace;
+}
