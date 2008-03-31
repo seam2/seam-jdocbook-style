@@ -122,16 +122,10 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 /*
 	Simpler author style on contents page
 	*/
-.author {
-	margin-top: 2px;
-}
-
-.affiliation {
-	display: inline;
-}
-
-.author h3 {
-	margin: 0px;
+.authorgroup div {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
 }
 
 /*
