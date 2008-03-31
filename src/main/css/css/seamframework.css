@@ -1,7 +1,10 @@
 @import url(jbossorg.css);
 
+/*
+	Override image, set font
+*/
 body {
-	background-image:url(../images/bkg_gradient.png);
+	background-image: url(../images/seamframework/bkg_gradient.png);
 	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
 }
 
@@ -13,6 +16,7 @@ a {
 
 h1 {
 	color: #885324;
+	background-image: url(../images/seamframework/title_hdr.png);
 }
 
 h2 {
@@ -27,7 +31,7 @@ h3,h4,h5,h6 {
 }
 
 div.note {
-	background: #849092;
+	background-color: #849092;
 	color: white;
 }
 
@@ -35,11 +39,57 @@ div.note h2 {
 	color: white;
 }
 
-div.note a:visited   , div.tip a:visited   , div.important a:visited   ,
-	div.caution a:visited 
-	  , div.warning a:visited   , div.note a:link   , div.tip a:link   ,
-	div.important a:link 
-	  , div.caution a:link   , div.warning a:link {
+/*
+	Override image
+*/
+div.caution {
+	background-image: url(../images/seamframework/caution.png);
+}
+
+/*
+	Override image
+*/
+div.important {
+	background-image: url(../images/seamframework/important.png);
+}
+
+/*
+	Override image
+*/
+div.note {
+	background-image: url(../images/seamframework/note.png);
+}
+
+/*
+	Override image
+*/
+div.tip {
+	background-image: url(../images/seamframework/tip.png);
+}
+
+/*
+	Override image
+*/
+div.warning {
+	background-image: url(../images/seamframework/warning.png);
+}
+
+/*
+	Override image
+*/
+ul {
+	list-style-image: url(../images/seamframework/dot.png);
+}
+
+/*
+	Override image
+*/
+ul ul {
+	list-style-image: url(../images/seamframework/dot2.png);
+}
+
+div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visited,div.warning a:visited,div.note a:link,div.tip a:link,div.important a:link,div.caution a:link,div.warning a:link
+	{
 	color: #f7f2d0;
 }
 
@@ -48,21 +98,23 @@ div.note a:visited   , div.tip a:visited   , div.important a:visited   ,
 	height: 100px;
 	width: 362px;
 	float: left;
-	background: url(../images/seamlogo.png) top left no-repeat;
+	background: url(../images/seamframework/seamlogo.png) top left no-repeat
+		;
 }
 
 #title a.commDoc_href {
 	display: block;
 	height: 100px;
-	background: transparent url(../images/support_doc.png) top right
-		no-repeat;
+	background: transparent url(../images/seamframework/support_doc.png) top
+		right no-repeat;
 }
 
 /*
 	Use sfwk colour as background for examples
 	*/
 .example {
-	background: url(../images/leftside_bkgimage.gif) top left repeat;
+	background: url(../images/seamframework/leftside_bkgimage.gif) top left
+		repeat;
 	padding: 5px;
 	margin-bottom: 10px;
 }
@@ -93,7 +145,6 @@ div.note a:visited   , div.tip a:visited   , div.important a:visited   ,
 /*
 	For highlighting, looks very odd or broken at the 0px jboss.org stylesheets use
 	*/
-
 PRE.JSP {
 	LINE-HEIGHT: 8px
 }
@@ -106,7 +157,7 @@ PRE.XHTML {
 	use sfwk.org tables
 	*/
 .table-contents th {
-	background: #EDE8DB url(../images/th.bg.gif) repeat-x scroll 0pt;
+	background: #EDE8DB url(../images/seamframework/th.bg.gif) repeat-x scroll 0pt;
 	color: black;
 	font-weight: bold;
 	padding: 2px 5px;
@@ -115,4 +166,74 @@ PRE.XHTML {
 
 .table-contents th td {
 	border-right: 1px solid #D3D2D1;
+}
+
+/*
+	Image override
+*/
+.docnav li.next a strong {
+	background-image: url(../images/seamframework/stock-go-forward.png);
+}
+
+/*
+	Image override
+*/
+.docnav li.previous a strong {
+	background-image: url(../images/seamframework/stock-go-back.png);
+}
+
+/*
+	Image override
+*/
+.docnav li.home a strong {
+	background-image: url(../images/seamframework/stock-home.png);
+}
+
+/*
+	Image override
+*/
+.docnav li.up a strong {
+	background-image: url(../images/seamframework/stock-go-up.png);
+}
+
+/*
+	Image override
+*/
+.navheader td.next a {
+	background-image: url(../images/seamframework/stock-go-forward.png);
+}
+
+/*
+	Image override
+*/
+.navheader td.previous a {
+	background-image: url(../images/seamframework/stock-go-back.png);
+}
+
+/*
+	Image override
+*/
+.navfooter td.next a {
+	background-image: url(../images/seamframework/stock-go-forward.png);
+}
+
+/*
+	Image override
+*/
+.navfooter td.previous a {
+	background-image: url(../images/seamframework/stock-go-back.png);
+}
+
+/*
+	Image override
+*/
+.navfooter td.home a {
+	background-image: url(../images/seamframework/stock-home.png);
+}
+
+/*
+	Image override
+*/
+.navfooter td.up a {
+	background-image: url(../images/seamframework/stock-go-up.png);
 }
