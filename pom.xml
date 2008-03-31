@@ -14,6 +14,12 @@
       The JDocBook styles for the SeamFramework.org Documentation.
    </description>
    <url>http://www.seamframework.org</url>
+   
+   <scm>
+      <developerConnection>scm:svn:https://svn.jboss.org/repos/seam/maven-plugins/trunk</developerConnection>
+      <connection>scm:svn:http://anonsvn.jboss.org/repos/seam/maven-plugins</connection>
+      <url>http://fisheye.jboss.org/browse/Seam/maven-plugins</url>
+   </scm>
 
    <pluginRepositories>
       <pluginRepository>
