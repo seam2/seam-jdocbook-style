@@ -120,31 +120,11 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 }
 
 /*
-	Simpler author style on contents page
-	*/
-.authorgroup div {
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 15px;
-}
-
-/*
 	Make the seam version info into a title
 	*/
 .releaseinfo {
 	color: #BA5624;
 	font-size: 150%;
-}
-
-/*
-	For highlighting, looks very odd or broken at the 0px jboss.org stylesheets use
-	*/
-PRE.JSP {
-	LINE-HEIGHT: 8px
-}
-
-PRE.XHTML {
-	LINE-HEIGHT: 8px
 }
 
 /*
