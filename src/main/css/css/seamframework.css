@@ -19,15 +19,11 @@ h1 {
 	background-image: url(../images/seamframework/title_hdr.png);
 }
 
-h2 {
-	color: #BA5624;
-}
-
 /*
-	Use sfwk colour for title
+	Use sfwk colour for titles
 */
-h3,h4,h5,h6 {
-	color: #576C74;
+h2,h3,h4,h5,h6 {
+	color: #BA5624;
 }
 
 div.note {
@@ -210,8 +206,4 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 */
 .navfooter td.up a {
 	background-image: url(../images/seamframework/stock-go-up.png);
-}
-
-.programlistingco pre {
-	font-family: Courier, 'Courier New', 'Lucida Console', Monaco, monospace;
 }
