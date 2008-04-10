@@ -36,7 +36,7 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 }
 
 /* Override header images */
-#title a.jbossOrg_href {
+#title a.site_href {
 	display: block;
 	height: 100px;
 	width: 362px;
@@ -44,7 +44,7 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 	background: url(../images/seamframework/seamlogo.png) top left no-repeat;
 }
 
-#title a.commDoc_href {
+#title a.doc_href {
 	display: block;
 	height: 100px;
 	background: transparent url(../images/seamframework/community_doc.png) top right no-repeat;
