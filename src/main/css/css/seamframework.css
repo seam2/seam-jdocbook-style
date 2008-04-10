@@ -1,15 +1,12 @@
 @import url(jbossorg.css);
 
-/*
-	Override image, set font
-*/
+/* Override background image, font */
 body {
 	background-image: url(../images/seamframework/bkg_gradient.png);
 	font-family: 'Lucida Grande', Geneva, Verdana, Arial, sans-serif;
 }
 
-/* 
-	More sfwk styling */
+/* More sfwk styling */
 a {
 	text-decoration: none;
 }
@@ -19,9 +16,7 @@ h1 {
 	background-image: url(../images/seamframework/title_hdr.png);
 }
 
-/*
-	Use sfwk colour for titles
-*/
+/* Use sfwk colour for titles */
 h2,h3,h4,h5,h6 {
 	color: #BA5624;
 }
@@ -35,97 +30,40 @@ div.note h2 {
 	color: white;
 }
 
-/*
-	Override image
-*/
-div.caution {
-	background-image: url(../images/seamframework/caution.png);
-}
-
-/*
-	Override image
-*/
-div.important {
-	background-image: url(../images/seamframework/important.png);
-}
-
-/*
-	Override image
-*/
-div.note {
-	background-image: url(../images/seamframework/note.png);
-}
-
-/*
-	Override image
-*/
-div.tip {
-	background-image: url(../images/seamframework/tip.png);
-}
-
-/*
-	Override image
-*/
-div.warning {
-	background-image: url(../images/seamframework/warning.png);
-}
-
-/*
-	Override image
-*/
-ul {
-	list-style-image: url(../images/seamframework/dot.png);
-}
-
-/*
-	Override image
-*/
-ul ul {
-	list-style-image: url(../images/seamframework/dot2.png);
-}
-
 div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visited,div.warning a:visited,div.note a:link,div.tip a:link,div.important a:link,div.caution a:link,div.warning a:link
-	{
+{
 	color: #f7f2d0;
 }
 
+/* Override header images */
 #title a.jbossOrg_href {
 	display: block;
 	height: 100px;
 	width: 362px;
 	float: left;
-	background: url(../images/seamframework/seamlogo.png) top left no-repeat
-		;
+	background: url(../images/seamframework/seamlogo.png) top left no-repeat;
 }
 
 #title a.commDoc_href {
 	display: block;
 	height: 100px;
-	background: transparent url(../images/seamframework/support_doc.png) top
-		right no-repeat;
+	background: transparent url(../images/seamframework/community_doc.png) top right no-repeat;
 }
 
-/*
-	Use sfwk colour as background for examples
-	*/
+/* Use sfwk colour as background for examples */
 .example {
-	background: url(../images/seamframework/leftside_bkgimage.gif) top left
-		repeat;
+	background: url(../images/seamframework/leftside_bkgimage.gif) top left repeat;
 	padding: 5px;
 	margin-bottom: 10px;
 }
 
-/*
-	Make the seam version info into a title
-	*/
+/* Make the seam version info into a title */
 .releaseinfo {
 	color: #BA5624;
 	font-size: 150%;
 }
 
-/*
-	use sfwk.org tables
-	*/
+/* Use sfwk.org tables */
 .table-contents th {
 	background: #EDE8DB url(../images/seamframework/th.bg.gif) repeat-x scroll 0pt;
 	color: black;
@@ -138,72 +76,22 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 	border-right: 1px solid #D3D2D1;
 }
 
-/*
-	Image override
-*/
-.docnav li.next a strong {
-	background-image: url(../images/seamframework/stock-go-forward.png);
-}
+/* Override admonition and navigation images */
+div.caution { background-image: url(../images/seamframework/caution.png); }
+div.important { background-image: url(../images/seamframework/important.png); }
+div.note { background-image: url(../images/seamframework/note.png); }
+div.tip { background-image: url(../images/seamframework/tip.png); }
+div.warning { background-image: url(../images/seamframework/warning.png); }
+ul { list-style-image: url(../images/seamframework/dot.png); }
+ul ul { list-style-image: url(../images/seamframework/dot2.png); }
 
-/*
-	Image override
-*/
-.docnav li.previous a strong {
-	background-image: url(../images/seamframework/stock-go-back.png);
-}
-
-/*
-	Image override
-*/
-.docnav li.home a strong {
-	background-image: url(../images/seamframework/stock-home.png);
-}
-
-/*
-	Image override
-*/
-.docnav li.up a strong {
-	background-image: url(../images/seamframework/stock-go-up.png);
-}
-
-/*
-	Image override
-*/
-.navheader td.next a {
-	background-image: url(../images/seamframework/stock-go-forward.png);
-}
-
-/*
-	Image override
-*/
-.navheader td.previous a {
-	background-image: url(../images/seamframework/stock-go-back.png);
-}
-
-/*
-	Image override
-*/
-.navfooter td.next a {
-	background-image: url(../images/seamframework/stock-go-forward.png);
-}
-
-/*
-	Image override
-*/
-.navfooter td.previous a {
-	background-image: url(../images/seamframework/stock-go-back.png);
-}
-
-/*
-	Image override
-*/
-.navfooter td.home a {
-	background-image: url(../images/seamframework/stock-home.png);
-}
-
-/*
-	Image override
-*/
-.navfooter td.up a {
-	background-image: url(../images/seamframework/stock-go-up.png);
-}
+.docnav li.next a strong { background-image: url(../images/seamframework/stock-go-forward.png); }
+.docnav li.previous a strong { background-image: url(../images/seamframework/stock-go-back.png); }
+.docnav li.home a strong { background-image: url(../images/seamframework/stock-home.png); }
+.docnav li.up a strong { background-image: url(../images/seamframework/stock-go-up.png); }
+.navheader td.next a { background-image: url(../images/seamframework/stock-go-forward.png); }
+.navheader td.previous a { background-image: url(../images/seamframework/stock-go-back.png); }
+.navfooter td.next a { background-image: url(../images/seamframework/stock-go-forward.png); }
+.navfooter td.previous a { background-image: url(../images/seamframework/stock-go-back.png); }
+.navfooter td.home a { background-image: url(../images/seamframework/stock-home.png); }
+.navfooter td.up a { background-image: url(../images/seamframework/stock-go-up.png); }
