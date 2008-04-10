@@ -87,14 +87,14 @@ div.note { background-image: url(../images/seamframework/docbook/note.png); }
 div.tip { background-image: url(../images/seamframework/docbook/tip.png); }
 div.warning { background-image: url(../images/seamframework/docbook/warning.png); }
 
-.docnav li.next a strong { background-image: url(../images/seamframework/docbook/stock-go-forward.png); }
-.docnav li.previous a strong { background-image: url(../images/seamframework/docbook/stock-go-back.png); }
-.docnav li.home a strong { background-image: url(../images/seamframework/docbook/stock-home.png); }
-.docnav li.up a strong { background-image: url(../images/seamframework/docbook/stock-go-up.png); }
+.docnav li.next a strong { background-image: url(../images/seamframework/docbook/next.png); }
+.docnav li.previous a strong { background-image: url(../images/seamframework/docbook/prev.png); }
+.docnav li.home a strong { background-image: url(../images/seamframework/docbook/home.png); }
+.docnav li.up a strong { background-image: url(../images/seamframework/docbook/up.png); }
 
-.navheader td.next a { background-image: url(../images/seamframework/docbook/stock-go-forward.png); }
-.navheader td.previous a { background-image: url(../images/seamframework/docbook/stock-go-back.png); }
-.navfooter td.next a { background-image: url(../images/seamframework/docbook/stock-go-forward.png); }
-.navfooter td.previous a { background-image: url(../images/seamframework/docbook/stock-go-back.png); }
-.navfooter td.home a { background-image: url(../images/seamframework/docbook/stock-home.png); }
-.navfooter td.up a { background-image: url(../images/seamframework/docbook/stock-go-up.png); }
+.navheader td.next a { background-image: url(../images/seamframework/docbook/next.png); }
+.navheader td.previous a { background-image: url(../images/seamframework/docbook/prev.png); }
+.navfooter td.next a { background-image: url(../images/seamframework/docbook/next.png); }
+.navfooter td.previous a { background-image: url(../images/seamframework/docbook/prev.png); }
+.navfooter td.home a { background-image: url(../images/seamframework/docbook/home.png); }
+.navfooter td.up a { background-image: url(../images/seamframework/docbook/up.png); }
