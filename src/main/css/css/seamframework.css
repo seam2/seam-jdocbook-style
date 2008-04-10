@@ -76,22 +76,25 @@ div.note a:visited,div.tip a:visited,div.important a:visited,div.caution a:visit
 	border-right: 1px solid #D3D2D1;
 }
 
-/* Override admonition and navigation images */
-div.caution { background-image: url(../images/seamframework/caution.png); }
-div.important { background-image: url(../images/seamframework/important.png); }
-div.note { background-image: url(../images/seamframework/note.png); }
-div.tip { background-image: url(../images/seamframework/tip.png); }
-div.warning { background-image: url(../images/seamframework/warning.png); }
+/* Override bullet points */
 ul { list-style-image: url(../images/seamframework/dot.png); }
 ul ul { list-style-image: url(../images/seamframework/dot2.png); }
 
-.docnav li.next a strong { background-image: url(../images/seamframework/stock-go-forward.png); }
-.docnav li.previous a strong { background-image: url(../images/seamframework/stock-go-back.png); }
-.docnav li.home a strong { background-image: url(../images/seamframework/stock-home.png); }
-.docnav li.up a strong { background-image: url(../images/seamframework/stock-go-up.png); }
-.navheader td.next a { background-image: url(../images/seamframework/stock-go-forward.png); }
-.navheader td.previous a { background-image: url(../images/seamframework/stock-go-back.png); }
-.navfooter td.next a { background-image: url(../images/seamframework/stock-go-forward.png); }
-.navfooter td.previous a { background-image: url(../images/seamframework/stock-go-back.png); }
-.navfooter td.home a { background-image: url(../images/seamframework/stock-home.png); }
-.navfooter td.up a { background-image: url(../images/seamframework/stock-go-up.png); }
+/* Override admonition and navigation images */
+div.caution { background-image: url(../images/seamframework/docbook/caution.png); }
+div.important { background-image: url(../images/seamframework/docbook/important.png); }
+div.note { background-image: url(../images/seamframework/docbook/note.png); }
+div.tip { background-image: url(../images/seamframework/docbook/tip.png); }
+div.warning { background-image: url(../images/seamframework/docbook/warning.png); }
+
+.docnav li.next a strong { background-image: url(../images/seamframework/docbook/stock-go-forward.png); }
+.docnav li.previous a strong { background-image: url(../images/seamframework/docbook/stock-go-back.png); }
+.docnav li.home a strong { background-image: url(../images/seamframework/docbook/stock-home.png); }
+.docnav li.up a strong { background-image: url(../images/seamframework/docbook/stock-go-up.png); }
+
+.navheader td.next a { background-image: url(../images/seamframework/docbook/stock-go-forward.png); }
+.navheader td.previous a { background-image: url(../images/seamframework/docbook/stock-go-back.png); }
+.navfooter td.next a { background-image: url(../images/seamframework/docbook/stock-go-forward.png); }
+.navfooter td.previous a { background-image: url(../images/seamframework/docbook/stock-go-back.png); }
+.navfooter td.home a { background-image: url(../images/seamframework/docbook/stock-home.png); }
+.navfooter td.up a { background-image: url(../images/seamframework/docbook/stock-go-up.png); }
