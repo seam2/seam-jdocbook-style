@@ -92,8 +92,10 @@ div.warning { background-image: url(../images/seamframework/docbook/warning.png)
 .docnav li.home a strong { background-image: url(../images/seamframework/docbook/home.png); }
 .docnav li.up a strong { background-image: url(../images/seamframework/docbook/up.png); }
 
+/* Eclipse Help Navigation */
 .navheader td.next a { background-image: url(../images/seamframework/docbook/next.png); }
 .navheader td.previous a { background-image: url(../images/seamframework/docbook/prev.png); }
+
 .navfooter td.next a { background-image: url(../images/seamframework/docbook/next.png); }
 .navfooter td.previous a { background-image: url(../images/seamframework/docbook/prev.png); }
 .navfooter td.home a { background-image: url(../images/seamframework/docbook/home.png); }
